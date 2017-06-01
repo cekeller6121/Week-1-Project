@@ -1,0 +1,364 @@
+@font-face {
+  src: url("https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i");
+}
+
+/*****Start of index.html*****/
+
+body {
+  background-color: #F2F1E8;
+  color: #131511;
+  font-family: 'Merriweather';
+  margin: 0px;
+  width: 100%;
+}
+
+p {
+  font-size: 18px;
+  line-height: 2em;
+
+}
+
+nav {
+  background-color: #FFF;
+  background-image: url("images/bent-creek-logo.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav ul {
+  background-color: #FFF;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+nav li {
+  background-color: #FFF;
+  display: inline-block;
+  text-align: left; /*(compensates for bullets)*/
+  width: 100px;
+}
+
+nav a {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #2B2F26;
+}
+
+nav a:hover {
+  color: #CD5D67;
+}
+
+nav a:active {
+  color: #968772;
+}
+
+.active-nav-bar-color a {
+  color: #968772;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.greeting {
+  font-family: 'Merriweather';
+  font-size: 65px;
+  padding-top: 20px;
+  text-align: center;
+}
+.sub-greeting {
+  font-family: 'Merriweather';
+  font-size: 40px;
+  margin-top: -25px;
+  text-align: center;
+}
+
+/*top-pics is the top row of 3 pictures on the About page*/
+
+.top-pics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 200px;
+}
+
+.top-pics img {
+  height: 405px;
+  width: auto;
+}
+#pic1 {
+  width: 540px;
+  height: 405px;
+}
+
+.pic1 {
+  position: relative;
+}
+.pic1 p {
+  background-color: #20241D;
+  bottom: 5px;
+  color: #F2F1E8;
+  left: 5px;
+  padding: 5px;
+  position: absolute;
+}
+
+.pic2 {
+  position: relative;
+}
+.pic2 p {
+  background-color: #20241D;
+  bottom: 5px;
+  color: #F2F1E8;
+  left: 5px;
+  padding: 5px;
+  position: absolute;
+}
+
+.pic3 {
+  position: relative;
+}
+.pic3 p {
+  background-color: #20241D;
+  bottom: 5px;
+  color: #F2F1E8;
+  left: 5px;
+  padding: 5px;
+  position: absolute;
+}
+
+/*bottom-pics is the bottom row of 4 pictures on the about page*/
+
+.bottom-pics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 200px;
+}
+
+.bottom-pics img {
+  height: 200px;
+  width: auto;
+}
+
+img {
+  padding: 5px;
+}
+
+.pic4 {
+  position: relative;
+}
+.pic4 p {
+  background-color: #20241D;
+  bottom: 5px;
+  color: #F2F1E8;
+  left: 5px;
+  padding: 5px;
+  position: absolute;
+}
+
+.pic5 {
+  position: relative;
+}
+.pic5 p {
+  background-color: #20241D;
+  bottom: 5px;
+  color: #F2F1E8;
+  left: 5px;
+  padding: 5px;
+  position: absolute;
+}
+
+.pic6 {
+  position: relative;
+}
+.pic6 p {
+  background-color: #20241D;
+  bottom: 5px;
+  color: #F2F1E8;
+  left: 5px;
+  padding: 5px;
+  position: absolute;
+}
+
+.pic7 {
+  position: relative;
+}
+.pic7 p {
+  background-color: #20241D;
+  bottom: 5px;
+  color: #F2F1E8;
+  left: 5px;
+  padding: 5px;
+  position: absolute;
+}
+
+
+
+/*****End of index.html*****/
+
+/*****Start of about.html*****/
+
+.about-info {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.first-p  {
+  display: flex;
+  flex-direction: row;
+}
+
+#birdhouse-p {
+  margin-top: -5px;
+}
+
+blockquote {
+  border-left: 1.5px solid #968772;
+  margin-left: auto;
+  padding-left: 25px;
+}
+
+article.about-pic {
+  background-image: url("images/background-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 300px;
+  position: static;
+  width: 100%;
+}
+
+.room-p {
+  color: white;
+  font-size: 50px
+
+}
+
+.facilities {
+  display: flex;
+  flex-direction: row;
+}
+
+.facilities1 p {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.about-table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  padding: 20px;
+  table-layout: auto;
+}
+
+.about-table td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.about-table th {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+tr.row-color {
+  background-color: white;
+}
+
+/*****End of about.html*****/
+
+/*****Start of newsletter.html*****/
+
+main.main-newsletter {
+  background-image: url("images/background-2.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 800px;
+  width: 100%;
+}
+
+/*Below is the container for the form and submit buttons*/
+
+.newsletter-form {
+  width: 600px;
+  height: 350px;
+  background-color: #F2F1E8;
+  border-radius: 3px;
+  margin-top: -60px;
+  text-align: center;
+}
+
+.newsletter-input {
+  background-color: #F2F1E8;
+  margin-left: 20px;
+}
+
+input.input-boxes {
+  background-color: #F2F1E8;
+  border: none;
+  border-bottom: 1px solid black;
+  color: #968772;
+  float: left;
+  font-size: 14px;
+  height: 40px;
+  width: 90%;
+}
+
+input.input-boxes:focus {
+  border: none;
+}
+
+
+
+button.submit-button {
+  background-color: #968772;
+  border-radius: 2px;
+  color: #F2F1E8;
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 150px;
+  height: 50px;
+}
+
+button.submit-button:hover {
+  color: #FFF;
+  background-color: #967343;
+}
+
+button.submit-button:active {
+  border-color: lime;
+}
+
+/*****End of newsletter.html*****/
+
+footer {
+  background-color: #20241D;
+  color: #F2F1E8;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Merriweather';
+  font-size: 14px;
+  height: 70px;
+  justify-content: center;
+  margin: 0;
+  padding-left: 10px;
+}
